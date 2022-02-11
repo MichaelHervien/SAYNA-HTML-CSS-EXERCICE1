@@ -1,0 +1,131 @@
+/* stylisation de l'en tête de la page */
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("img/background.png");
+}
+@font-face{
+    font-family: courgette;
+    src: url(courgette/Courgette-Regular.ttf);
+  }
+.top-bar-left {
+font-size:2em;
+display: flex;
+margin-right: 54%;
+margin-left: 16px;
+
+}
+.top-bar {
+    background-color: #c55394;
+    display: flex;
+}
+.top-bar a{
+    color: #FFF;
+    text-decoration: none;
+}
+.top-bar-right{
+    display: flex;
+}
+ li{
+    display: inline;
+    list-style: none;
+    padding: 0px 8px;
+    text-transform: uppercase;
+}
+li a:hover{
+    background: #eb43a3;
+    padding: 16px 6px;
+}
+/* stylisation de corp de la page */
+.title{
+    text-align: center;
+    background-image: url("img/rainbow.png");
+    background-repeat: no-repeat;
+    padding: 15px 0px;
+    background-position: 430px 3px;
+    color: #eb43a3;
+    font-family: "courgette", cursive;
+}
+.container{
+    margin: 0px 10%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem;
+    background: #FFF;
+    padding: 10px 19px;
+    margin-bottom: 5% ;
+}
+.container h2{
+    color: #eb43a3;
+    font-family: "courgette", cursive;
+    display: inline;
+    margin-bottom: 12px;
+    
+}
+i{
+    color: #c55394;
+}
+.fig-img{
+    display: flex;
+    flex-wrap: wrap;  
+    margin-bottom: 12px; 
+}
+figure {
+    flex-flow: column;
+    margin: auto;
+}
+
+img {
+    max-width: 500px;
+    max-height: 250px;
+    justify-content: space-between;
+}
+
+figcaption {
+    background-color:rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding:3px;
+    text-align: center;
+    font-weight: 600px;
+}
+
+.contact{
+   display: flex;
+}
+.right{
+    float: right;
+    position: relative;
+}
+.right h3{
+    padding:12px 0px;
+    color: #eb43a3;
+    font-family: "courgette", cursive;
+}
+.right p{
+    line-height: 1px;
+}
+input{
+    max-width: max-content;
+    padding: 8px;
+    margin-top: 15px;
+    display: block;
+}
+button{
+    margin-top: 8px;
+    padding:5px 10px;
+    background: rgb(207, 105, 153);
+    border-radius: 5px;
+    font-size: 15px;
+    color:#FFF ;
+}
+.newletter p{
+padding-bottom: 5px;
+}
+footer {
+    background: #e577b5;
+    text-align: right;
+    padding: 1px;
+    color: #FFF;
+  }
+  
+
